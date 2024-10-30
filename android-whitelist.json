@@ -1645,9 +1645,16 @@
       "version": "7\\.\\+"
     },
     {
+      "description": "This library is cross for the Mercado Pago Transfer repositories",
+      "expires": "2024-11-01",
       "group": "com\\.mercadopago\\.android\\.digital_accounts_components",
       "name": "digital_accounts_components",
       "version": "12\\.\\+"
+    },
+    {
+      "group": "com\\.mercadopago\\.android\\.digital_accounts_components",
+      "name": "digital_accounts_components",
+      "version": "13\\.\\+"
     },
     {
       "group": "com\\.mercadopago\\.android\\.ml_esc_manager",
@@ -5079,6 +5086,15 @@
     {
       "group": "com\\.mercadolibre\\.android\\.mp_search",
       "name": "search",
+      "version": "1\\.\\+"
+    },
+    {
+      "allows_granular_projects": [
+        "com.mercadoenvios.logistics",
+        "com.mercadolibre.android.wallet.home"
+      ],
+      "group": "com\\.mercadolibre\\.android\\.rtc_mobile",
+      "name": "realtime",
       "version": "1\\.\\+"
     },
     {
